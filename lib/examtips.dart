@@ -1,36 +1,21 @@
 import 'package:flutter/material.dart';
 import 'file:///C:/Users/devni/AndroidStudioProjects/notesewa/lib/Reading%20Section/paragraph.dart';
+import 'package:notesewa/Reading%20Section/heading.dart';
+import 'package:notesewa/Reading%20Section/subHeading.dart';
 
 class ExamTips extends StatelessWidget {
   @override
-
-  Widget Heading(String heading) {
-    return Container(
-      padding: EdgeInsets.fromLTRB(15, 5, 15, 5),
-      child: Text(
-        "$heading",
-        textAlign: TextAlign.start,
-        style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-      ),
-    );
-  }
-
-  Widget SubHeading(String heading) {
-    return Container(
-      padding: EdgeInsets.fromLTRB(15, 5, 15, 5),
-      child: Text(
-        "$heading",
-        textAlign: TextAlign.start,
-        style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-      ),
-    );
-  }
-
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
         child: ListView(
           children: [
+            Divider(
+              thickness: 2,
+              height: 15,
+              indent: 20,
+              endIndent: 20,
+            ),
             Heading(
                 "लिखित परीक्षा र अन्तर्वार्ता दिँदा ध्यान पुर्याउनुपर्ने कुराहरू"),
             Divider(

@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class Heading extends StatelessWidget {
-  final String heading;
-  Heading(this.heading);
+class SubHeading extends StatelessWidget {
+  final String subHeading;
+  SubHeading(this.subHeading);
   @override
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.fromLTRB(15, 5, 15, 5),
       child: Text(
-        "$heading",
+        "$subHeading",
         textAlign: TextAlign.start,
-        style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+        style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
       ),
     );
   }

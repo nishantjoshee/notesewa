@@ -21,6 +21,7 @@ class _HomePageState extends State<HomePage> {
           elevation: 5,
           title: Text("Notesewa"),
         ),
+        drawer: Drawer(),
         body: ListView(
           padding: EdgeInsets.all(5),
           children: [
