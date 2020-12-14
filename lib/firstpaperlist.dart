@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:notesewa/Biswoko%20Bhugol/biswokoBhugol.dart';
 import 'package:notesewa/Brahmaanda/brahmaanda.dart';
 import 'package:notesewa/Nepalko%20Bhugol/nepalkoBhugol.dart';
 
@@ -59,8 +60,8 @@ class FirstPaperList extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) => FirstPaperList()));
+                    CupertinoPageRoute(
+                        builder: (BuildContext context) => BiswokoBhugol()));
               },
             ),
           ),

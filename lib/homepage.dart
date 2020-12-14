@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:notesewa/examtips.dart';
 import 'package:notesewa/firstpaper.dart';
 import 'package:notesewa/mcqset.dart';
-import 'package:notesewa/secondpaper.dart';
+
 
 class HomePage extends StatefulWidget {
   @override
@@ -57,38 +57,7 @@ class _HomePageState extends State<HomePage> {
                 },
               ),
             ),
-            Card(
-              child: ListTile(
-                leading: Icon(
-                  Icons.library_books_outlined,
-                  color: Colors.deepPurple,
-                  size: 40,
-                ),
-                title: Text(
-                  'द्वितीय पत्र',
-                  style: TextStyle(
-                    fontSize: 20,
-                  ),
-                ),
-                subtitle: Text(
-                  'सामाजिक, आर्थिक अवस्था',
-                  style: TextStyle(
-                    fontSize: 16,
-                  ),
-                ),
-                trailing: Icon(
-                  Icons.navigate_next,
-                  color: Colors.deepPurple,
-                  size: 35,
-                ),
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      CupertinoPageRoute(
-                          builder: (BuildContext context) => SecondPaper()));
-                },
-              ),
-            ),
+
             Card(
               child: ListTile(
                 leading: Icon(
