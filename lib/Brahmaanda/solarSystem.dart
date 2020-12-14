@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:notesewa/Reading%20Section/heading.dart';
 import 'package:notesewa/Reading%20Section/paragraph.dart';
@@ -7,6 +8,7 @@ class SolarSystem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text("सौर्यमण्डल (Solar System)"),),
       body: SafeArea(
         child: ListView(
           children: [
@@ -23,6 +25,18 @@ class SolarSystem extends StatelessWidget {
               indent: 20,
               endIndent: 20,
             ),
+
+            Container(
+                padding: EdgeInsets.all(10),
+                child: Column(
+                  children: [
+                    Image.network("https://cdn.mos.cms.futurecdn.net/VL7nBnqLZMhQt5VkPzzJVF-1200-80.jpg"),
+                    Text("Solar System", style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic),),
+                  ],
+                )
+            ),
+
+            
             Paragraph(
                 "सौर्यमण्डल (Solar System) मा ग्रहहरू, उपग्रहहरू, स-साना शिशु ग्रहहरू, उल्काहरू, धुमकेतुहरू पर्दछन् ।"),
             Paragraph(
@@ -58,14 +72,15 @@ class SolarSystem extends StatelessWidget {
               indent: 20,
               endIndent: 20,
             ),
-            SubHeading("सौय मण्डलका सात आश्चर्यहरु (Seven Wonders of Solar System)"),
+            SubHeading(
+                "सौय मण्डलका सात आश्चर्यहरु (Seven Wonders of Solar System)"),
             Divider(
               thickness: 2,
               height: 15,
               indent: 20,
               endIndent: 20,
             ),
-           Paragraph("• Olympic Mons"),
+            Paragraph("• Olympic Mons"),
             Paragraph("• The Active Volcano of Io"),
             Paragraph("• The Putative hydrocarbon oceans of Titan"),
             Paragraph("• Valles Marineries canyan of Mars"),

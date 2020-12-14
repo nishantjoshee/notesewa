@@ -92,32 +92,6 @@ class _HomePageState extends State<HomePage> {
             Card(
               child: ListTile(
                 leading: Icon(
-                  Icons.library_books_outlined,
-                  color: Colors.deepPurple,
-                  size: 40,
-                ),
-                title: Text(
-                  'नेपालको संविधान',
-                  style: TextStyle(
-                    fontSize: 20,
-                  ),
-                ),
-                trailing: Icon(
-                  Icons.navigate_next,
-                  color: Colors.deepPurple,
-                  size: 35,
-                ),
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      CupertinoPageRoute(
-                          builder: (BuildContext context) => SecondPaper()));
-                },
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(
                   Icons.forum_outlined,
                   color: Colors.deepPurple,
                   size: 40,

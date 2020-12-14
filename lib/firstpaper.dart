@@ -14,10 +14,10 @@ class FirstPaper extends StatelessWidget {
         children: [
           Card(
             child: ListTile(
-              leading: Icon(
-                Icons.sticky_note_2_outlined,
-                color: Colors.deepPurple,
-                size: 40,
+              leading:  SizedBox(
+                child: Image.network(
+                    "https://is5-ssl.mzstatic.com/image/thumb/Purple7/v4/4e/2d/69/4e2d697e-5589-9fab-a9ac-24337b091102/source/512x512bb.jpg"),
+                width: 50,
               ),
               title: Text(
                 'सामान्य ज्ञान​',
@@ -40,10 +40,10 @@ class FirstPaper extends StatelessWidget {
           ),
           Card(
             child: ListTile(
-              leading: Icon(
-                Icons.sticky_note_2_outlined,
-                color: Colors.deepPurple,
-                size: 40,
+              leading: SizedBox(
+                child: Image.network(
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRwGK5X5iuY4xORYCyaiW_pINCjd5TVb2Zng&usqp=CAU"),
+                width: 50,
               ),
               title: Text(
                 'सामान्य बौद्धिक परीक्षण',
