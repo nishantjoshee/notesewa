@@ -51,6 +51,12 @@ class Volcano extends StatelessWidget {
                   Paragraph("• कुनै समय चालू हुने र कुनै समयमा बन्द हुने ज्वालामुखी सुषुप्त ज्वालामुखी हुन् । इटालीको काकाटोवा ज्वालामुखी र सवसुभियन ज्वालामुखी सुषुप्त.ज्वालामुखी हुन् ।"),
                   Paragraph("• विश्वको सर्वोच्च स्थानमा रहेको ज्वालामुखी ओजोस डेल सलादार एण्डिज पर्वतमाला इक्वेडरमा पर्दछ।"),
                   Paragraph("• The eruption of a volcano can be one of nature's most terrifying events. A volcano is a vent of fissure where magma (molten rock) from the earth's hot interior emerges into the surface. In some places, the molten rock, called lave onece it has emerged on to the surface, oozes out slowly and gently. But in other, the eruption is a violent explosion, flinging out molten lava, red-hot lumps of rock, seorching ash, and clouds of stream which spread for kilometers."),
+                  Divider(
+                    thickness: 2,
+                    height: 15,
+                    indent: 20,
+                    endIndent: 20,
+                  ),
                 ],
               )
           ),
